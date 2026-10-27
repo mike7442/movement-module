@@ -31,7 +31,7 @@ void loop() {
   if (!t1 && !t2 && !t3) {
     static bool dir = true;
     dir = !dir;
-    long pos = dir ? 10000 : -10000;
+    long pos = dir ? 3000 : -3000;
     m1.setTarget(pos);
     m2.setTarget(pos);
     m3.setTarget(pos);
