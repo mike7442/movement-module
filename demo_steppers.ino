@@ -4,7 +4,7 @@
 
 GStepper<STEPPER2WIRE> m1(800, 1, 0);
 GStepper<STEPPER2WIRE> m2(800, 2, 3);
-GStepper<STEPPER2WIRE> m3(800, 6, 7);
+GStepper<STEPPER2WIRE> m3(800, 6, 5);
 
 void setup() {
   pinMode(ENA_PIN, OUTPUT);
